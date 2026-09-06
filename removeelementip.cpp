@@ -1,10 +1,11 @@
-//remove elements all occurences and give new arr size
+//remove elements all occurences and give new arr size T.C.=O(n) and extra space =O(1)
 #include<iostream>
 #include<vector>
 using namespace std;
 int eliminatenum(vector<int>& arr,int tar){
     int j=0;
-    for(int i=0;i<arr.size();i++){
+    int o=arr.size();
+    for(int i=0;i<o;i++){
         if(arr[i]!=tar){
             arr[j]=arr[i];
             j++;
