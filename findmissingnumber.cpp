@@ -25,6 +25,8 @@ int main(){
     for(int i = 0; i < n; i++){
         cin >> arr[i];
     }
+
+    
     int r = missingnum(arr);
     cout << "The missing num is: " << r << endl;
     return 0;

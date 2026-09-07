@@ -1,4 +1,4 @@
-//remove elements all occurences and give new arr size T.C.=O(n) and extra space =O(1)
+//remove elements all occurences in place and give new arr size T.C.=O(n) and extra space =O(1)
 #include<iostream>
 #include<vector>
 using namespace std;
