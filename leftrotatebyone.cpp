@@ -1,3 +1,4 @@
+//rotate array left by one t.c.=O(n) , extra space=O(1) just a.
 #include<iostream>
 using namespace std;
 int main(){
